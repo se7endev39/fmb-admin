@@ -7524,7 +7524,7 @@ h2 {
   margin-right: 1rem; }
 
 .sidebarMenu {
-  background: #32343c;
+  background: #C4C4C4;
   padding: 0;
   height: 100vh;
   overflow: auto; }
@@ -7538,7 +7538,7 @@ h2 {
   .sidebarMenu .brand {
     text-align: center;
     padding: 1rem 0;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25); }
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.25); }
     .sidebarMenu .brand h2 {
       color: rgba(255, 255, 255, 0.85);
       font-size: 2em;
@@ -7549,16 +7549,20 @@ h2 {
   font-weight: normal;
   width: 100%; }
   .menuItem :hover {
-    background: #1b1c21; }
+    background: rgba(255, 255, 255, 0.85); }
   .menuItem a {
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(0, 0, 0, 0.85);
     padding: .75rem 0; }
   .menuItem span {
     vertical-align: middle; }
   .menuItem .fa {
     margin-left: 3rem; }
   .menuItem .linkText {
-    margin-left: 1rem; }
+    margin-left: 1rem;
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28px;
+  }
 
 .accountMenu button {
   margin-top: 0;
@@ -7705,3 +7709,241 @@ h2 {
 
 .mainContainer {
   padding: 2rem; }
+.todaydate_div {
+  text-align: center;
+}
+.todaydate_span{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: -0.075em;
+  background: #C4C4C4;
+  color: #000000;
+}
+
+.dash_rect_2{
+  margin: 41px 0 47px 56px;
+  width:17%;
+  text-align: center;
+  left: 584px;
+  top: 160px;
+  background: #C4C4C4;
+  border-radius: 24px;
+}
+
+.dash_rect_2 .number{
+  margin-top: 45px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 68px;
+  color: #000000;
+}
+
+.dash_rect_2 .label{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+.dash_rect_3_1
+{
+  text-align: center;
+  margin: 64px 103px 0 363px;
+  background: #C4C4C4;
+  box-shadow: -2px 4px 15px 6px rgba(0, 0, 0, 0.18);
+  border-radius: 24px;
+}
+.dash_rect_3_1 .label{
+  margin: 14px 15px 15px 14px;
+  padding-top: 10px;
+  height: 80px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37px;
+  line-height: 139.19%;
+/* or 51px */
+
+  letter-spacing: -0.075em;
+
+  color: #000000;
+}
+
+.dash_rect_2{
+  margin: 41px 0 47px 56px;
+  width:17%;
+  text-align: center;
+  left: 584px;
+  top: 160px;
+  background: #C4C4C4;
+  border-radius: 24px;
+}
+
+.dash_third_1{
+  margin: 4px 0px 58px 99px;
+  width: 30%;
+  background: #C4C4C4;
+  border-radius: 30px;
+}
+
+.dash_third_1 .menu{
+  margin-top:15px;
+  margin-left: 9vh;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 139.19%;
+  letter-spacing: -0.075em;
+  color: #000000;
+}
+
+.dash_third_1 .label{
+  margin-left: 4vh;
+  margin-bottom:2px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  letter-spacing: -0.075em;
+  color: #000000;
+}
+.dash_third_1 .label_last{
+  margin-bottom:51px;
+  margin-left: 4vh;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  letter-spacing: -0.075em;
+  color: #000000;
+}
+
+.dash_third_2{
+  margin: 200px 25px 58px 26px;
+  width: 20%;
+  background: #C4C4C4;
+  border-radius: 30px;
+}
+.dash_third_2 .label{
+  margin-left: 4vh;
+  margin-top: 21px;
+  margin-bottom:97px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 139.19%;
+  letter-spacing: -0.075em;
+  color: #000000;
+}
+.dash_third_2 .label_last{
+  margin-left: 4vh;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 139.19%;
+  letter-spacing: -0.075em;
+  color: #000000;
+}
+.dashheader_div{
+  margin-top:26px;
+  text-align:center;
+}
+.dashheader_span{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: -0.075em;
+
+  color: #000000;
+
+}
+.dash_main{
+  width:28vh;
+  height: 70vh;
+}
+.dash_main_1{
+  margin: 26px 43px 0 83px;
+  background: #C4C4C4;
+  border-radius: 30px;
+}
+
+.dash_main_2{
+  margin: 4px 23px 0 43px;
+  background: #C4C4C4;
+  border-radius: 30px;
+}
+
+.dash_main_1{
+  margin: 4px 20px 20px 99px;
+  background: #C4C4C4;
+  border-radius: 30px;
+}
+.dash_main .menu{
+  padding-top: 17px;
+  margin-left: 3vh;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: -0.075em;
+
+  color: #000000;
+}
+.dash_main .menu_sub{
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin-left: 3vh;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: -0.075em;
+
+  color: #000000;
+}
+.dash_main .label{
+  margin-left: 3vh;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: -0.075em;
+  color: #000000;
+}
+
+.dashfooter_div{
+  margin-top:26px;
+  margin-right:6vh;
+  text-align:right;
+}
+.dashfooter_span{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 139.19%;
+/* identical to box height, or 45px */
+
+letter-spacing: -0.075em;
+background: #E8E1E1;
+color: #000000;
+}
+
+.thaalis_div{
+  margin-top: 33px;
+}

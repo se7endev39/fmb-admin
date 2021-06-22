@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 
 import Menu from './Menu';
 import Main from './Main';
-import Profile from './Profile';
+import Home from './Profile';
 import Products from './Products';
 import Shop from './Shop';
 import Customers from './Customers';
@@ -20,7 +20,7 @@ const Dashboard = () =>
       <div className='main col-md-10'>       
         <div className='fluid-container'>
           <Route exact path='/' component={Main} />
-          <Route path='/profile' component={Profile} />
+          <Route path='/profile' component={Home} />
           <Route path='/products' component={Products} />
           <Route path='/shop' component={Shop} />
           <Route path='/customers' component={Customers} />

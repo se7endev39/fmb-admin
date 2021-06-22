@@ -1,12 +1,23 @@
 import React from 'react';
+
 import Header from '../components/Header';
+import TodayDate from '../components/TodayDate';
+import DashHeader from '../components/DashHeader';
+import DashFooter from '../components/DashFooter';
+import DashMain from '../components/DashMain';
 
-const Profile = () =>
-  <div className='profileContainer'>
-    <Header pageTitle='Profile' />
-    <div className='mainContainer'>
-      <h2>This is Profile</h2>
-    </div>
-  </div>;
+class Home extends React.Component {
+  render()  {
+    return (  
+      <div>
+        <Header pageTitle=''/>
+        <TodayDate />
+        <DashHeader pageTitle='Total Thaalis'/>
+        <DashMain />
+        <DashFooter pageTitle='Thaalis by Zone'/>
+      </div>
+    );
+  }
+}
 
-export default Profile;
+export default Home;

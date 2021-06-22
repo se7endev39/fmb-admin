@@ -10,17 +10,17 @@ class Menu extends React.Component {
     return (
       <div>
         <div className='brand'>
-          <h2 className='title'>React Admin</h2>
+          <h2 className='title'></h2>
         </div>
         <ul>
-          <MenuItem link='/' linkText='Dashboard' iconName='tachometer' />
-          <MenuItem link='/profile' linkText='Profile' iconName='cog' />
-          <MenuItem link='/shop' linkText='Shop' iconName='shopping-cart' />
-          <MenuItem link='/products' linkText='Products' iconName='tags' />
-          <MenuItem link='/orders' linkText='Orders' iconName='list' />
-          <MenuItem link='/customers' linkText='Customers' iconName='group' />
-          <MenuItem link='/analytics' linkText='Analytics' iconName='bar-chart' />
-          <MenuItem link='/settings' linkText='Settings' iconName='gear' />
+          <MenuItem link='/' linkText='Dashboard' />
+          <MenuItem link='/profile' linkText='Home'  />
+          <MenuItem link='/shop' linkText='Today Thaalis'  />
+          <MenuItem link='/products' linkText='FeedBack'  />
+          <MenuItem link='/orders' linkText='Users'  />
+          <MenuItem link='/customers' linkText='Menu'  />
+          <MenuItem link='/analytics' linkText='Calendar'  />
+          <MenuItem link='/settings' linkText='Settings'  />
         </ul> 
       </div>
       

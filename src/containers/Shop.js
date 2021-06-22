@@ -1,12 +1,23 @@
 import React from 'react';
+
 import Header from '../components/Header';
+import TodayDate from '../components/TodayDate';
+import DashHeader from '../components/DashHeader';
+import DashFooter from '../components/DashFooter';
+import DashThaalisMain from '../components/DashThaalisMain';
 
-const Shop = () =>
-  <div className='shopContainer'>
-    <Header pageTitle='Shop' />
-    <div className='mainContainer'>
-      <h2>This is Shop</h2>
-    </div>
-  </div>;
+class Thaalis extends React.Component {
+  render()  {
+    return (  
+      <div>
+        <Header pageTitle=''/>
+        <TodayDate />
+        <DashHeader pageTitle='Thaalis by Zone/Mohalla'/>
+        <DashThaalisMain />
+        <DashFooter pageTitle='Total Thaalis'/>
+      </div>
+    );
+  }
+}
 
-export default Shop;
+export default Thaalis;
